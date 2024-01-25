@@ -18,6 +18,8 @@ function App() {
         <div className="container">
           <img src={lusad} alt="Sad luffy"/>
           <p>WE DID IT!!!</p>
+          <img src={lusad} alt="Sad luffy2"/>
+          <p>FREE AT LAST!!!</p>
           <img src={fix1} alt="fix 1"/>
           <p>make sure that there are deploy directions</p>
           <img src={fix2} alt="fix 2"/>
