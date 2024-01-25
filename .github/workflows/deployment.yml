@@ -21,7 +21,7 @@ jobs:
       # - run: git config --global user.name $GITHUB_ACTOR
           
       - run: echo "hey $GITHUB_ACTOR"
-      - run: git remote set-url origin https://${{secrets.G_TOKEN}}@github.com/$GITHUB_ACTOR/${{ github.repository }}
+      - run: git remote set-url origin https://${{secrets.G_TOKEN}}@github.com/${{ github.repository }}
       # "https://${{secrets.MY_NAME}}@github.com/deployme"
       - run: npm install
       - run: npm run build
