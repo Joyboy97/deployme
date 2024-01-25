@@ -20,7 +20,7 @@ jobs:
       - run: |
           git config --global user.email ${{secrets.MY_EMAIL}}
           git config --global user.name ${{secrets.MY_NAME}}
-          git remote set-url origin "https://github.com/${{secrets.MY_NAME}}/deployme.git"
+          git remote set-url origin "https://${{secrets.MY_NAME}}@github.com/${repository}"
           npm install
           npm run build
           npm run deploy
